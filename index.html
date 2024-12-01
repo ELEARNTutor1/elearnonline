@@ -50,7 +50,7 @@
 	      }
 	      #sect1 {
 		      display: block;
-		      margin: 0 auto 0 auto;
+		      margin: 0;
 		      padding: 10px;
 	      }
 	      #teacher1 {
@@ -67,6 +67,13 @@
 		      width: 100%;
 		      max-width: 600px;
 		      box-sizing: border-box;
+	      }
+
+	      /* Media Query for larger screens (600px or bigger) */
+	      @media (min-width: 600px) {
+	        #sect1 {
+		  text-align: center;
+		}
 	      }
 
 	    </style>

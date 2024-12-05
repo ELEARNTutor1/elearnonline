@@ -64,8 +64,10 @@
 	      }
 	      #headerTeacher {
 		      display: flex;                  /* Use Flexbox layout */
-		      align-items: center;            /* Vertically center the content */
-		      text-align: left;               /* Ensure text is left-aligned */
+		      flex-direction: column;         /* Stack the content vertically */
+		      align-items: center;            /* Center both the image and text horizontally */
+		      justify-content: center;        /* Center the content vertically (if needed) */
+		      text-align: center;             /* Center the text */
 	      }
 	      .teacherSect {	      
 		      margin: 0 0 5px 0;

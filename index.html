@@ -58,14 +58,17 @@
 		      margin: 0;
 		      padding: 10px;
 	      }
-	      #headerTeacher1 {
+	      h2 {
+		      text-align: center;
+	      }
+	      #headerTeacher {
 		      display: flex;
 		      flex-direction: column; /* Stacks the content vertically */
 		      align-items: center; /* Centers the child elements horizontally */
 		      justify-content: center; /* Centers the child elements vertically */
 		      text-align: center; /* Ensures text inside is centered */
 	      }
-	      #teacherInfo {	      
+	      .teacherInfo {	      
 		      margin: 0;
 		      padding: 10px;
 		      background-color: #F2E6FF;
@@ -99,7 +102,7 @@
 	      main {
 		      margin: 0;
 		      padding: 10px;
-		      background-color: #580F41;/*#FFF7D5;*/
+		      background-color: #87CEEB;/*#580F41;/*#FFF7D5;*/
 		      width: 100%;
 		      max-width: 600px;
 		      box-sizing: border-box;
@@ -126,11 +129,13 @@
 		</header>
 		<main>
 			<section id="sect1">
-			<div id="teacherInfo">	
-			<div  id="headerTeacher1">
-			<img id="teacher1" src="/profilePic1.PNG" alt="profile1">
-			<h2>Teacher Shane</h2>
-			</div>
+			<div class="teacherInfo">	
+				<div  id="headerTeacher">
+				<img id="teacher1" src="/profilePic1.PNG" alt="profile1">
+				<h2>Teacher Shane</h2>
+				</div>
+			</div>	
+			<div class="teacherInfo">
 			<h3>About</h3>
 				asdfghjkl
 			<h3>Credentials</h3>
@@ -144,7 +149,7 @@
 				shane@elearnonline.org<br><br>
 			</div>
 				<div id="res1" class="res">
-			        <h3>Resource</h3>
+			        <h2>Resource</h2>
 			        <h3>1/2 Links/References</h3>
 				
 				<h4>links's</h4>

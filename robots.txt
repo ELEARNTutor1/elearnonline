@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /transcriptSubjects.pdf
+Disallow: /credential2.pdf
